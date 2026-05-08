@@ -1,0 +1,34 @@
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+}
+
+.skills-group {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  transition: border-color var(--transition);
+}
+
+.skills-group:hover {
+  border-color: rgba(167, 139, 250, 0.25);
+}
+
+/* Tiny all-caps mono label above the badges */
+.skills-group__label {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  margin-bottom: var(--space-md);
+}
+
+.skills-group__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}

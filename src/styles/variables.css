@@ -1,0 +1,33 @@
+/* ─────────────────────────────────────────────────────────
+   variables.css — change a value here, it changes everywhere
+   ───────────────────────────────────────────────────────── */
+:root {
+
+  /* Backgrounds */
+  --bg:        #0d1117;   /* page background */
+  --surface:   #161b22;   /* card backgrounds */
+  --surface-2: #21262d;   /* elevated / hover */
+
+  /* Borders */
+  --border:       #30363d;
+  --border-hover: #484f58;
+
+  /* Accent — muted violet, ~6.9:1 contrast ratio on --bg (WCAG AAA) */
+  --accent:        #a78bfa;
+  --accent-dim:    rgba(167, 139, 250, 0.10);
+  --accent-border: rgba(167, 139, 250, 0.28);
+
+  /* Text */
+  --text:   #e6edf3;  /* primary   — 15.4:1 contrast */
+  --text-2: #8b949e;  /* secondary —  5.9:1 contrast */
+  --text-3: #484f58;  /* muted hints */
+
+  /* Typography */
+  --font:      'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Layout */
+  --radius:     8px;
+  --radius-lg:  12px;
+  --max-width:  860px;
+}

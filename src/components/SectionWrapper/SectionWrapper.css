@@ -1,0 +1,12 @@
+.section-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-3xl) var(--space-xl);
+}
+
+/* On small screens reduce the side padding */
+@media (max-width: 768px) {
+  .section-wrapper {
+    padding: var(--space-2xl) var(--space-md);
+  }
+}
