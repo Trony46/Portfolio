@@ -74,12 +74,3 @@ Edit `src/styles/variables.css`. One file, everything updates.
 | `--font-mono` | Monospace font (badges, nav) |
 
 ---
-
-## Deploy to Vercel
-
-1. Push to GitHub
-2. Go to vercel.com → New Project → Import your repo
-3. Framework: Vite (auto-detected)
-4. Deploy
-
-Every `git push` to `main` auto-deploys.
