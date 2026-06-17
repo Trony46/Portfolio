@@ -96,7 +96,7 @@ const resume = {
     {
       degree: "B.Tech — Computer Science and Engineering (Data Science)",
       school: "SRM Institute of Science and Technology",
-      score: "CGPA: 8.47 / 10",
+      score: "CGPA: 8.65 / 10",
       year: "2023 – 2027",
     },
     {
