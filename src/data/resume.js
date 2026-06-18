@@ -10,7 +10,7 @@ const resume = {
   tagline: "Backend Developer",
   subtitle: "Java · Spring Boot · SQL · Data Science",
   about:
-    "3rd-year B.Tech CSE (Data Science) student at SRM IST, building backend systems that handle real data at real scale. I care about clean REST APIs, normalized schemas, and code that's easy to reason about.",
+    "4th-year B.Tech CSE (Data Science) student at SRM IST, building backend systems that handle real data at real scale. I care about clean REST APIs, normalized schemas, and code that's easy to reason about.",
 
   // ── Links ─────────────────────────────────────────────
   email: "ashmitshaw960@gmail.com",
@@ -96,7 +96,7 @@ const resume = {
     {
       degree: "B.Tech — Computer Science and Engineering (Data Science)",
       school: "SRM Institute of Science and Technology",
-      score: "CGPA: 8.65 / 10",
+      score: "CGPA: 8.6 / 10",
       year: "2023 – 2027",
     },
     {
